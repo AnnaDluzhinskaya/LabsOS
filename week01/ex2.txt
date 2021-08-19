@@ -1,0 +1,16 @@
+  549  ls | sort -r |grep gcc > ~/week1/ex1.txt
+  550  ls | sort -r |grep gcc > ~/~/week1/ex1.txt
+  551  ls | sort -r |grep gcc > /week1/ex1.txt
+  552  ls
+  553  ls | sort -r | grep gcc > ~/week1/ex1.txt
+  554  ls | sort -r | grep gcc > ~/week1/ex1.txt
+  555  cd ..
+  556  cd ann_d/week1
+  557  cd ..
+  558  cd /ann_d
+  559  cd ..
+  560  cd usr
+  561  cd ..
+  562  cd Users
+  563  cd ann_d
+  564  cd week1
