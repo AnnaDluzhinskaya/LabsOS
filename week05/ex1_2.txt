@@ -1,0 +1,18 @@
+Tread №1 was created
+Message from tread №1
+Tread №1 is done
+Tread №2 was created
+Message from tread №2
+Tread №2 is done
+Tread №3 was created
+Message from tread №3
+Tread №3 is done
+Tread №4 was created
+Message from tread №4
+Tread №4 is done
+Tread №5 was created
+Message from tread №5
+Tread №5 is done
+
+Process finished with exit code 0
+
