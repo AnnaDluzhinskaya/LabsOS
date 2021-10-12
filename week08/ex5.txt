@@ -1,0 +1,3 @@
+Physical mamory is limited actual memory, which can access the CPU. And Virtual Memory is
+a memory management technique which creates illusion of larger physical memory, so cannot 
+have access the CPU.

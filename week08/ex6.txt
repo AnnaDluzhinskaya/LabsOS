@@ -1,0 +1,11 @@
+Page size = 8 KB = 2ˆ13 bit
+So offset is 13 bit
+
+For example: (101010|1001100000110) - first part is page number, second part is offset 
+
+So if virtual address - 16 bit, so number of entries in pade table is equal to
+2ˆ(16-13)=2ˆ3=8
+
+Answer: 8
+ 
+
