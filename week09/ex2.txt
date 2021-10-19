@@ -1,0 +1,10 @@
+1) If we need to increase the hit / miss ratio = hit / (number_of_operations-hits)
+  So, now it is obvious that in order to increase the ratio, we need to increase the number of hits.
+
+  We can do this simply by sorting our input file (input_increased_ration.txt)
+  
+2) If we need to decrease the hit / miss ratio = hit / (number_of_operations-hits)
+  So, now it is obvious that in order to decrease the ratio, we need to decrease the number of hits.
+
+  We can do this by constructing a sequence in which each equal number is at a distance not less than page_frame from itself.
+  (input_decreased_ration.txt)
