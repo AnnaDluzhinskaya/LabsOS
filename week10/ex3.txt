@@ -1,0 +1,9 @@
+-rw-rw-rw-  1 ann_d  staff  25 26 окт 21:02 _ex3.txt
+ 
+-rwxrw-rwx  1 ann_d  staff  25 26 окт 21:02 _ex3.txt
+ 
+-rwxrwxrwx  1 ann_d  staff  25 26 окт 21:02 _ex3.txt
+ 
+660 - u=rw-,g=rw-,o=---
+775 - u=rwx,g=rwx,o=r-x
+777 - u=rwx,g=rwx,o=rwx
