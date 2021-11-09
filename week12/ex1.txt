@@ -1,0 +1,71 @@
+0000-0cf7 : PCI Bus 0000:00
+  0000-001f : dma1
+  0020-0021 : pic1
+  0040-0043 : timer0
+  0050-0053 : timer1
+  0060-0060 : keyboard
+  0061-0061 : PNP0800:00
+  0062-0062 : PNP0C09:00
+    0062-0062 : EC data
+  0064-0064 : keyboard
+  0066-0066 : PNP0C09:00
+    0066-0066 : EC cmd
+  0070-0075 : rtc0
+  0080-008f : dma page reg
+  00a0-00a1 : pic2
+  00c0-00df : dma2
+  00f0-00ff : PNP0C04:00
+    00f0-00ff : fpu
+  0170-0177 : 0000:00:1f.1
+    0170-0177 : ata_piix
+  01f0-01f7 : 0000:00:1f.1
+    01f0-01f7 : ata_piix
+  0376-0376 : 0000:00:1f.1
+    0376-0376 : ata_piix
+  03c0-03df : vesafb
+  03f6-03f6 : 0000:00:1f.1
+    03f6-03f6 : ata_piix
+  04d0-04d1 : pnp 00:04
+  0505-0505 : QEMU0001:00
+0cf8-0cff : PCI conf1
+0d00-ffff : PCI Bus 0000:00
+  4000-407f : 0000:00:1f.0
+    4000-4003 : ACPI PM1a_EVT_BLK
+    4004-4005 : ACPI PM1a_CNT_BLK
+    4008-400b : ACPI PM_TMR
+    400c-400c : ACPI PM2_CNT_BLK
+    4028-402b : ACPI GPE0_BLK
+  4300-433f : gpio_ich.1.auto
+    4300-432f : gpio_ich
+    4330-433f : gpio_ich
+  6000-7fff : PCI Bus 0000:01
+    6000-601f : 0000:01:00.0
+      6000-601f : prl_drm
+  8000-801f : 0000:00:03.0
+    8000-801f : prl_tg
+  8200-823f : 0000:00:05.0
+    8200-823f : virtio-pci-legacy
+  9000-afff : PCI Bus 0000:02
+  b000-b01f : 0000:00:0e.0
+    b000-b01f : virtio-pci-legacy
+  b200-b21f : 0000:00:1d.0
+    b200-b21f : uhci_hcd
+  c000-dfff : PCI Bus 0000:03
+  e000-e00f : 0000:00:1f.1
+    e000-e00f : ata_piix
+  e200-e207 : 0000:00:1f.2
+    e200-e207 : ahci
+  e400-e403 : 0000:00:1f.2
+    e400-e403 : ahci
+  e600-e607 : 0000:00:1f.2
+    e600-e607 : ahci
+  e800-e803 : 0000:00:1f.2
+    e800-e803 : ahci
+  ea00-ea0f : 0000:00:1f.2
+    ea00-ea0f : ahci
+  ec00-ec1f : 0000:00:1f.3
+    ec00-ec1f : i801_smbus
+  
+  dma1 - first Direct Memory Access controller
+  pic1 - Programmable Interrupt controoller
+  timer1 - timer counter (16-bit timer/counter register pair)

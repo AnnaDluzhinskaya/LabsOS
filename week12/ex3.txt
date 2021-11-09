@@ -1,0 +1,34 @@
+P+E -> I passed the Exam!
+C+A+P -> Get some cappuccino!
+A+D -> Anna Dluzhinskaya!
+
+PRESSED 0x19 (25)
+p
+PRESSED 0x12 (18)
+I passed the Exam!
+e
+RELEASED 0x12 (18)
+
+RELEASED 0x19 (25)
+
+PRESSED 0x2e (46)
+c
+PRESSED 0x1e (30)
+a
+PRESSED 0x19 (25)
+Get some cappuccino!
+p
+RELEASED 0x19 (25)
+
+RELEASED 0x1e (30)
+
+RELEASED 0x2e (46)
+
+PRESSED 0x1e (30)
+a
+PRESSED 0x20 (32)
+Anna Dluzhinskaya!
+d
+RELEASED 0x20 (32)
+
+RELEASED 0x1e (30)
