@@ -1,0 +1,61 @@
+Recovery: 
+- Process Termination:
+  1) Abort all processes that could lead to deadlock
+  "+": easy enough to implement
+
+  "-": we can delete processes that could probably be done; high time costs
+
+  2) Abort processes one by one until deadlock can be avoided
+  "+": more efficient than the past
+
+  "-": harder to implement than the past; high time costs, because after aborting each process, we need to run a deadlock detection algorithm one more time
+
+- Resource Preemption:
+    Preempt some resources from processes and give those resources to other processes.
+    "+": allows you to make the program more effective
+
+    "-": causes a number of difficulties: selecting which processes are to be preempted, what to do with process which we preempted (if you do total rollback, it will increase the execution time) and how to avoid starvation. This greatly complicates the implementation of the algorithm.
+  
+Prevention:
+- Eliminate Mutual Exclusion:
+    "-": this is not possible because some resources are simply not available for sharing.
+
+- Eliminate Hold and wait:
+  1)We can initially give all resources to one process, and after its completion and release, transfer all resources to the next process, and so on.
+
+  "+": this is a sure way to avoid "hold and wait"
+
+  "-": this method makes the system extremely ineffective, since the processes are executed one after another without paying attention to the execution time and so on
+
+  2)After releasing the current set of resources, the process will make a new request for resources.
+  
+  "+": it is more efficient than the previous one
+
+  "-": this is may lead to starvation
+
+- Eliminate No Preemption:
+  Preempt resources from lower-priority processes to higher-priority ones.
+
+  "+": eliminate "no preemption"
+
+  "-": quite difficult to implement and it is not always possible to implement
+
+- Eliminate Circular Wait:
+
+  Each resource will be assigned a numerical number.A process can request resources only in the order of increasing / decreasing resource numbering.
+
+  "+": eliminate "circular wait"
+
+  "-": quite difficult to implement and it is not always possible to implement
+
+
+Avoidance:
+  It is a simple strategy that we can realize by Banker's Algorithm.
+
+  We just check all the requests of the process for resources, and if it is in a safe state, we allow requests to be made, otherwise we deny it.
+
+"+": it is simple
+
+"-": this is a highly ineffective way to avoid deadlock
+
+
